@@ -28,43 +28,43 @@
     </div>
     <div class="form-container">
       <p>Let's do this!</p>
-      <form action="">
+      <form action="" id="my-form">
         <div>
           <div>
-            <label for="">FIRST NAME</label>
-            <input type="text">
+            <label for="name">FIRST NAME</label>
+            <input id="name" type="text" placeholder="Thor" required>
           </div>
           <div>
-            <label for="">EMAIL</label>
-            <input type="email">
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" required>
           </div>
           <div>
-            <label for="">PASSWORD</label>
-            <input type="password">
+            <label for="password">PASSWORD</label>
+            <input id="password" type="password" required>
           </div>
         </div>
         <div>
           <div>
-            <label for="">LAST NAME</label>
-            <input type="text">
+            <label for="last-name">LAST NAME</label>
+            <input id="last-name" type="text" placeholder="Odinson" required>
           </div>
           <div>
-            <label for="">PHONE NUMBER</label>
-            <input type="number">
+            <label for="p-number">PHONE NUMBER</label>
+            <input id="p-number" type="number" required>
           </div>
           <div>
-            <label for="">CONFIRM PASSWORD</label>
-            <input type="password">
+            <label for="c-password">CONFIRM PASSWORD</label>
+            <input id="c-password" type="password" required>
           </div>
         </div>
       </form>
     </div>
     <div class="last-section">
       <div>
-        <button type="button">Create Account</button>
+        <button form="my-form">Create Account</button>
       </div>
       <div>
-        Already have an account? <a href="#">Log in</a>
+        Already have an account? <a href="#" class="log-id">Log in</a>
       </div>
     </div>
   </div>

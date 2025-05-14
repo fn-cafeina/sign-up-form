@@ -1,12 +1,12 @@
 # Sign Up Form
 
 ## Description
-This project is from the foundations section of [The Odin Project](https://www.theodinproject.com) course.
+A simple registration form as a practice of thesee, this project is from the foundations section of [The Odin Project](https://www.theodinproject.com) course.
 
-<!-- ## Demo
+## Demo
 <p align="center">
-  <img alt="Demo image 0" src="">
-</p> -->
+  <img alt="Demo image 0" src="demo/demo-0.png">
+</p>
 
 ## Resources
 - [minireset.css](https://github.com/jgthms/minireset.css)

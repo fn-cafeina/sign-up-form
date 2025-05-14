@@ -49,5 +49,91 @@ body {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+
+  & > div {
+    flex: 1;
+  }
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: end;
+  background-color: #fdfdfd;
+  padding: 42px;
+  font-size: 1.2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  & > p {
+    font-size: 1.4rem;
+  }
+}
+
+.form-container > form {
+  display: flex;
+  gap: 62px;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+
+      & > label {
+        opacity: 0.8;
+        font-size: 0.8rem;
+      }
+
+      & > input {
+        padding: 4px;
+        border: 1px solid #E5E7EB;
+        outline: none;
+      }
+
+      & > input:focus {
+        border: 1px solid rgb(110, 110, 226);
+      }
+    }
+  }
+}
+
+#password:invalid, #c-password:invalid {
+  border: 1px solid rgb(245, 96, 96);
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 42px;
+}
+
+.last-section > div:first-child button {
+  padding: 8px 20px;
+  cursor: pointer;
+  background-color: #596D48;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.log-id {
+  text-decoration: none;
+  color: #596D48;
 }
