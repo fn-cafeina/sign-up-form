@@ -1,7 +1,7 @@
 # Sign Up Form
 
 ## Description
-A simple registration form as a practice of thesee, this project is from the foundations section of [The Odin Project](https://www.theodinproject.com) course.
+A simple registration form, this project is from the intermediate html/css of [The Odin Project](https://www.theodinproject.com) course.
 
 ## Demo
 <p align="center">
